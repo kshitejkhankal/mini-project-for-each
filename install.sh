@@ -1,6 +1,10 @@
-#!/bin/sh
+#!bin/sh
 sudo apt-get update
-sudo apt-get install nginx -y
-sudo service nginx start
-sudo service nginx enable
-echo "<h1>Hello im kshitej !!!!! this is my mini project using terraform </h1>" > /var/www/html/index.html
+sudo snap install aws-cli --classic -y
+sudo snap install terraform --classic -y
+sudo apt update
+sudo apt install fontconfig openjdk-17-jre
+java -version
+openjdk version "17.0.8" 2023-07-18
+OpenJDK Runtime Environment (build 17.0.8+7-Debian-1deb12u1)
+OpenJDK 64-Bit Server VM (build 17.0.8+7-Debian-1deb12u1, mixed mode, sharing)
